@@ -1,6 +1,6 @@
 <?php
 
 $searchQuery = $_GET['query'];
-echo 'search_words: '.$searchQuery ;
+echo 'search_wor ds: '.$searchQuery ;
 
 ?>
