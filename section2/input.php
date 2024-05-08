@@ -177,6 +177,10 @@ contact
 <!-- page2 ------------------------------------------------->
 <?php if($pageFlag === 2) : ?>
 <?php if($_POST["csrf"] === $_SESSION["csrfToken"]) : ?>
+
+  <!-- DB connect & save  -->
+
+  
 email sent
 <?php unset($_SESSION["csrfToken"]); ?>
 <?php endif; ?>
