@@ -20,7 +20,7 @@ function typeTest(string $string)
   var_dump($string);
 }
 
-typeTest(['array']);
+// typeTest(['array']);
 // 指定した引数とは異なる方の引数が入るとエラー
 
 ?>
