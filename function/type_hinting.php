@@ -1,5 +1,10 @@
 <?php
 
+declare(strict_types=1);
+// 厳密な型チェック
+// 関数やメソッドの引数、戻り値において型の自動変換が行われなくなり、完全に型が一致していないとエラーが発生します。
+
+
 ini_set("display_errors", 1);
 error_reporting(E_ALL);
 

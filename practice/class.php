@@ -98,4 +98,26 @@ echo $result2->name."\n";
 
 $result2 = new Student5("Tom5");
 echo $result2->name."\n";
+// ------------------------
+
+
+class Eldenring {
+  public $job; 
+  public $skill; 
+
+  public function __construct($job, $skill){
+    $this->job = $job;
+    $this->skill = $skill;
+  }
+
+  public function introduce(){
+    echo "my first character is ".$this->job." and his/her skill is ".$this->skill.".";
+  }
+}
+
+$character = new Eldenring("wizard","glint stone");
+
+echo $character->introduce();
+
+
 ?>
